@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+head{
+    height: 100%;
+    width: 100%;
+}
+.redLine{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+.patoIcon{
+    height: 50px;
+    width: 35px;
+}
+.header{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding-bottom: 10px;
+    padding-inline-start: 50px;
+    align-items: center;
+        
+}
+nav ul li a{
+    position: relative;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: red;
+}
+.icon i:hover{
+    color: red;
+}
+.icon{
+    align-items: center;
+}
+.icon i{
+    color: white;
+    gap:20px;
+}
+.icon a{
+    padding:10px;
+}
+
+/* section1 */
+
+.main_m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px;
+    color: aliceblue;
+}
+.firstPage img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: -1;
+}
+.firstPage{
+    display:block;
+    /* flex */
+    flex-direction: column;
+    margin: 10px;
+    height: 744px;
+}
+
+
+
+.wel{
+    font-family: Courgette;
+    font-size: 60px;
+    line-height: 1.1;
+    
+}
+.patoplace{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.1;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+.lookMenu{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border:transparent;
+    color: #ec1d25;
+    width: 135px;
+    height: 40px;
+}
+.lookMenu:hover{
+    color:aliceblue;
+    background-color: #ec1d25;
+    
+}
+/* section2 */
+.secondPage{
+    width: 1oo%;
+    height: 744px;
+}
+.photo img{
+    width: 390px;
+    height: 390px;
+    border-radius: 10px;
+}
+.itR{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+.welcome{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    letter-spacing: 6px;
+    justify-content: center;
+}
+.cen{
+    max-width: 513px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0;
+}
+.story{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #222222;
+    letter-spacing: 1px
+}
+.photo2{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:744px;
+    z-index: -1;
+    display: flex;
+    
+}
+.main_mD{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    height: 645px;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+.photo2 :hover img{
+    transform: scale(1.1);
+}
